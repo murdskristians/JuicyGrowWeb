@@ -2,21 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JuicyGrow</title>
+    <title>hello</title>
 </head>
 <body>
 
-<h1>JuicyGrow</h1>
-
-
-
-
-//make nav bar
-
-//make header
-
-
-
+<h1>hello</h1>
 
 
 
