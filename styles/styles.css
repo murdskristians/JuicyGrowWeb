@@ -72,11 +72,29 @@ a {
     padding-left: 51px;
 }
 
-#green-block-1-title{
+.green-block-2-element{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.green-block-title{
     font-size: 40px;
     color: #B1D3BB ;
     padding-top: 72px;
     padding-bottom: 72px;
+}
+.green-block-subtitle{
+    font-size: 35px;
+    font-weight: 550;
+    margin-left: 20px; /* Adjust the margin as needed to control the space between the dot and text */
+}
+
+.green-block-subtitle::before {
+    content: "\2022"; /* Unicode character for a bullet point (•) */
+    margin-right: 10px; /* Adjust the margin as needed to control the space between the bullet point and text */
+    font-size: 45px; /* Adjust the font size as needed */
+    vertical-align: middle; /* Vertically align the bullet point with the text */
 }
 
 #green-block-1-chapter-2{
@@ -84,10 +102,69 @@ a {
     padding-bottom: 50px;
 }
 
+#green-block-2-subtitle-2{
+    padding-top: 115px;
+}
+
+#green-block-2-chapter-2{
+    padding-bottom: 50px;
+}
+
+#green-block-2-chapter-1, #green-block-2-chapter-2{
+    font-size: 22px;
+}
+
+#green-block-3-title-1{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+#green-block-3-title-2{
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
+
+#green-block-3-subtitle-2{
+    padding-top: 50px;
+}
+
+#green-block-3-chapter-1, #green-block-3-chapter-2{
+    text-align: justify;
+    padding: 0 55px;
+}
+
+#green-block-3-chapter-2{
+    padding-bottom: 30px;
+}
+
+#green-block-4-title-1{
+    padding-top: 55px;
+    padding-bottom: 15px;
+}
+
+#green-block-4-title-2{
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+#green-block-4-chapter-1, #green-block-4-chapter-2{
+    text-align: justify;
+    padding: 0 30px;
+}
+
+#green-block-4-subtitle-1{
+    padding-top: 90px;
+}
+
+#green-block-4-chapter-2{
+    padding-bottom: 40px;
+}
 #footer-container{
     position: static;
     display: flex;
-    height: 365px;
+    height: 380px;
     width: 100%;
     min-height: auto;
     background-color: #407c51;
