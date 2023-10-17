@@ -27,7 +27,7 @@ a {
 #screen-sides-picture{
     background-image: url(../images/background.png);
     background-size: contain;
-    height: 8079px;
+    height: 8430px;
     z-index: 10;
     position: absolute;
     width: 100%;
@@ -38,6 +38,8 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 4em;
+    position: relative;
+    z-index: 20;
 }
 
 .slide-containers{
@@ -164,7 +166,7 @@ a {
 #footer-container{
     position: static;
     display: flex;
-    height: 380px;
+    height: 400px;
     width: 100%;
     min-height: auto;
     background-color: #407c51;
