@@ -40,7 +40,7 @@ a {
     font-size: 4em;
 }
 
-#slide-container-1{
+.slide-containers{
     margin-top: 484px;
     width: 100%;
     display: flex;
