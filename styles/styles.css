@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 a {
     text-decoration: none;
@@ -55,16 +54,32 @@ a {
 }
 
 .green-block{
-    background-color: #3d774ee8;
+    background-color: #407c51;
     width: 66%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     margin-left: 16.5%;
     color: white;
     font-size: 28px;
     border-radius: 20px;
     box-shadow: -18px 27px 40px rgb(0 0 0 / 43%);
+}
+
+.green-block-1-element{
+    padding-left: 51px;
+}
+
+#green-block-1-title{
+    font-size: 40px;
+    color: #B1D3BB ;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+#green-block-1-chapter-2{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
