@@ -45,6 +45,7 @@ a {
     font-size: 4em;
     position: relative;
     z-index: 20;
+    cursor: pointer;
 }
 
 .slide-containers, .slide-containers-2, .slide-containers-3, .slide-containers-4{
