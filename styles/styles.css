@@ -220,7 +220,8 @@ a {
 
     #logo {
         width: 30vw;
-        height: auto;
+        height: 30vh;
+        object-fit: cover;
     }
 
     #language-container {
