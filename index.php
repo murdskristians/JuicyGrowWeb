@@ -177,9 +177,9 @@ $translations = json_decode($main_page_translations, true);
             Email
         </p>
 
-        <p id="footer-element-2" class="footer-element">
-            info@juicygrow.net
-        </p>
+
+        <a href="mailto:info@juicygrow.net"  id="footer-element-2" class="footer-element">info@juicygrow.net</a>
+
 
         <p id="footer-element-3" class="footer-element">
             © 2023 by Juicy Grow All rights reserved.
