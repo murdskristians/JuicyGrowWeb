@@ -22,8 +22,6 @@ $translations = json_decode($main_page_translations, true);
 
 
 <div id="screen-sides-picture"></div>
-<div id="screen-sides-picture"></div>
-<div id="screen-sides-picture"></div>
 
 <div id="main-content" style="position: relative">
     <div id="logo-container">
@@ -37,7 +35,7 @@ $translations = json_decode($main_page_translations, true);
     </div>
 
 
-    <div class="slider-with-text-container">
+    <div class="slider-with-text-container row-reverse">
         <div id="slide-wrapper">
             <div id="slide-1-container-1" class="slide-containers">
                 <img id="slider-1-img-1" class="slides" src="/images/slider-1-img-1.jpg" alt="slide1.png">
@@ -65,13 +63,13 @@ $translations = json_decode($main_page_translations, true);
 
     <div class="slider-with-text-container">
         <div id="slide-wrapper-2">
-            <div id="slide-2-container-1" class="slide-containers">
+            <div id="slide-2-container-1" class="slide-containers-2">
                 <img id="slider-2-img-1" class="slides" src="/images/slider-2-img-1.jpeg" alt="slide1.png">
             </div>
-            <div id="slide-2-container-2" class="slide-containers" style="display: none">
+            <div id="slide-2-container-2" class="slide-containers-2" style="display: none">
                 <img id="slider-2-img-2" class="slides" src="/images/slider-2-img-2.webp" alt="slide1.png">
             </div>
-            <div id="slide-2-container-3" class="slide-containers" style="display: none">
+            <div id="slide-2-container-3" class="slide-containers-2" style="display: none">
                 <img id="slider-2-img-3" class="slides" src="/images/slider-2-img-3.webp" alt="slide3.png">
             </div>
         </div>
@@ -98,15 +96,15 @@ $translations = json_decode($main_page_translations, true);
     </div>
 
 
-    <div class="slider-with-text-container">
+    <div class="slider-with-text-container row-reverse">
         <div id="slide-wrapper-3">
-            <div id="slide-3-container-1" class="slide-containers">
+            <div id="slide-3-container-1" class="slide-containers-3">
                 <img id="slider-3-img-1" class="slides" src="/images/slider-3-img-1.webp" alt="slide1.png">
             </div>
-            <div id="slide-3-container-2" class="slide-containers" style="display: none">
+            <div id="slide-3-container-2" class="slide-containers-3" style="display: none">
                 <img id="slider-3-img-2" class="slides" src="/images/slider-3-img-2.webp" alt="slide2.png">
             </div>
-            <div id="slide-3-container-3" class="slide-containers" style="display: none">
+            <div id="slide-3-container-3" class="slide-containers-3" style="display: none">
                 <img id="slider-3-img-3" class="slides" src="/images/slider-3-img-3.webp" alt="slide3.png">
             </div>
         </div>
@@ -139,13 +137,13 @@ $translations = json_decode($main_page_translations, true);
 
     <div class="slider-with-text-container">
         <div id="slide-wrapper-4">
-            <div id="slide-4-container-1" class="slide-containers">
+            <div id="slide-4-container-1" class="slide-containers-4">
                 <img id="slider-4-img-1" class="slides" src="/images/slider-4-img-1.webp" alt="slide1.png">
             </div>
-            <div id="slide-4-container-2" class="slide-containers" style="display: none">
+            <div id="slide-4-container-2" class="slide-containers-4" style="display: none">
                 <img id="slider-4-img-2" class="slides" src="/images/slider-4-img-2.webp" alt="slide2.png">
             </div>
-            <div id="slide-4-container-3" class="slide-containers" style="display: none">
+            <div id="slide-4-container-3" class="slide-containers-4" style="display: none">
                 <img id="slider-4-img-3" class="slides" src="/images/slider-4-img-3.webp" alt="slide3.png">
             </div>
         </div>
