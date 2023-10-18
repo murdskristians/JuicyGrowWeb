@@ -218,9 +218,12 @@ a {
         background-image: url(../images/background2.png);
     }
 
+    #logo-container{
+        padding-top: 80px;
+    }
     #logo {
-        width: 30vw;
-        height: 30vh;
+        width: 19vw;
+        height: 22vh;
         object-fit: cover;
     }
 
