@@ -18,8 +18,7 @@ a {
 #logo{
     width: 44vw;
     height: 18vh;
-    object-fit: cover;
-    max-width: 250px;
+    object-fit: fill;
 }
 
 #logo-container{
@@ -129,6 +128,7 @@ a {
 }
 
 #green-block-3-title-2{
+    font-size: 40px;
     padding-bottom: 100px;
     padding-top: 10px;
 }
@@ -212,11 +212,13 @@ a {
 
 @media (min-width: 1000px) {
     #screen-sides-picture{
-        height: 3241px;
+        height: 3041px;
+        max-height: 3041px;
         background-image: url(../images/background2.png);
     }
     #logo {
         width: 30vw;
+        height: auto;
     }
 
     #language-container {
@@ -259,16 +261,61 @@ a {
         padding-bottom: 55px;
     }
 
+    .green-block-element.green-block-subtitle{
+        font-size: 24px;
+    }
+
     .green-block-element{
         font-size: 19px;
+        padding-left: 25px;
     }
+
     #green-block-1-title{
         font-size: 32px
     }
+
+    #green-block-2-subtitle-1, #green-block-2-subtitle-2{
+        font-size: 24px;
+    }
+
+    #green-block-2-chapter-1, #green-block-2-chapter-2{
+        font-size: 17px;
+    }
+
+    #green-block-4-subtitle-1, #green-block-4-subtitle-2{
+        font-size: 22px;
+        padding-top: 40px;
+    }
+
+    #green-block-3-title-1 {
+        font-size: 32px;
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+
+    #green-block-3-title-2{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+
+    #green-block-3-chapter-1, #green-block-3-chapter-2{
+        font-size: 17px;
+        padding: 0px 20px;
+    }
+
+    #green-block-3-chapter-2{
+        padding-bottom: 45px;
+    }
+
     #green-block-4-title-1, #green-block-4-title-2{
         font-size: 36px;
         padding-top: 21px;
         padding-left: 17px;
+        padding-bottom: 0px;
+    }
+
+    .green-block-4-chapter{
+        font-size: 16px;
     }
 
     #footer-container{
@@ -295,5 +342,6 @@ a {
         align-items: center;
         justify-content: center;
         margin: 100px auto 0;
+        z-index: 30;
     }
 }
