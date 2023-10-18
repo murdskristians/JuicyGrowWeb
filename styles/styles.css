@@ -216,6 +216,7 @@ a {
         max-height: 3041px;
         background-image: url(../images/background2.png);
     }
+
     #logo {
         width: 30vw;
         height: auto;
@@ -272,6 +273,10 @@ a {
 
     #green-block-1-title{
         font-size: 32px
+    }
+
+    #slider-2-img-1, #slider-2-img-2, #slider-2-img-3{
+        width: 17vw;
     }
 
     #green-block-2-subtitle-1, #green-block-2-subtitle-2{
